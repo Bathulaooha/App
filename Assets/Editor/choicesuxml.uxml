@@ -1,0 +1,72 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Editor/recipeuss.uss?fileID=7433441132597879392&amp;guid=8e4751ded85f3b842be5cb2776035c2a&amp;type=3#recipeuss" />
+    <ui:VisualElement class="mainscreen screen choicesmainscreeen" style="border-top-left-radius: 30px; border-bottom-left-radius: 30px; border-top-right-radius: 30px; border-bottom-right-radius: 30px;">
+        <ui:TextField picking-mode="Ignore" class="searchbar search" />
+        <ui:VisualElement class="filters filter" />
+        <ui:VisualElement class="top">
+            <ui:Label text="Popular Choices" display-tooltip-when-elided="true" class="choices" />
+            <ui:Button text="show all" display-tooltip-when-elided="true" class="choicesshow" />
+        </ui:VisualElement>
+        <ui:ScrollView name="ScrollView" class="choicesscroll">
+            <ui:VisualElement class="choice1ve">
+                <ui:Button display-tooltip-when-elided="true" class="choice1" />
+                <ui:Label text="Fast Burgers" display-tooltip-when-elided="true" class="choice1label" />
+                <ui:Label text="Cafe.Western Food-$$" display-tooltip-when-elided="true" class="choice1food" />
+            </ui:VisualElement>
+            <ui:VisualElement class="choice2ve">
+                <ui:Button display-tooltip-when-elided="true" class="choice2" />
+                <ui:Label text="Black Stone" display-tooltip-when-elided="true" class="choice2label" />
+                <ui:Label text="Cafe.Western Food-$$" display-tooltip-when-elided="true" class="choice2food" />
+            </ui:VisualElement>
+            <ui:VisualElement class="choice3ve">
+                <ui:Button display-tooltip-when-elided="true" class="choice3" />
+                <ui:Label text="Fast Burgers" display-tooltip-when-elided="true" class="choice3label" />
+                <ui:Label text="Cafe.Western Food-$$" display-tooltip-when-elided="true" class="choice3food" />
+            </ui:VisualElement>
+        </ui:ScrollView>
+        <ui:VisualElement class="mid">
+            <ui:Label text="New Restuarants" display-tooltip-when-elided="true" class="new" />
+            <ui:Button text="show all" display-tooltip-when-elided="true" class="restuarantsshow" />
+        </ui:VisualElement>
+        <ui:ScrollView class="restuarantsscroll">
+            <ui:VisualElement class="res1ve">
+                <ui:Button display-tooltip-when-elided="true" class="res1" />
+                <ui:Label text="Super Good Cafe" display-tooltip-when-elided="true" class="res1label" />
+                <ui:Label text="Cafe.Western Food-$$" display-tooltip-when-elided="true" class="res1food" />
+                <ui:Label text="4.9(124 ratings)" display-tooltip-when-elided="true" class="res1rating" />
+            </ui:VisualElement>
+            <ui:VisualElement class="res2ve">
+                <ui:Button display-tooltip-when-elided="true" class="res2" />
+                <ui:Label text="Awesome Coffee Shop" display-tooltip-when-elided="true" class="res2label" />
+                <ui:Label text="Cafe.Western Food-$$" display-tooltip-when-elided="true" style="color: rgb(103, 97, 97); position: absolute; top: 32px; left: 98px;" />
+                <ui:Label text="4.9(124 ratings)" display-tooltip-when-elided="true" class="res2rating" />
+            </ui:VisualElement>
+            <ui:VisualElement class="res3ve">
+                <ui:Button display-tooltip-when-elided="true" class="res3" />
+                <ui:Label text="Nextdoor Thai" display-tooltip-when-elided="true" class="res3label" />
+                <ui:Label text="Cafe.Western Food-$$" display-tooltip-when-elided="true" class="res3food" />
+                <ui:Label text="4.9(124 ratings)" display-tooltip-when-elided="true" class="res3rating" />
+            </ui:VisualElement>
+            <ui:VisualElement class="res4ve">
+                <ui:Button display-tooltip-when-elided="true" class="res4" />
+                <ui:Label text="Fast Burgers" display-tooltip-when-elided="true" class="res4label" />
+                <ui:Label text="Cafe.Western Food-$$" display-tooltip-when-elided="true" class="res4food" />
+                <ui:Label text="4.9(124 ratings)" display-tooltip-when-elided="true" class="res4rating" />
+            </ui:VisualElement>
+        </ui:ScrollView>
+        <ui:VisualElement class="navbar nav">
+            <ui:Button display-tooltip-when-elided="true" class="button1 resbutton">
+                <ui:VisualElement class="restuarantlabel res" />
+                <ui:Label text="Restuarants" display-tooltip-when-elided="true" class="restuarant reslabel" />
+            </ui:Button>
+            <ui:Button display-tooltip-when-elided="true" class="button1 offerbutton">
+                <ui:VisualElement class="restuarantlabel off" />
+                <ui:Label text="offers" display-tooltip-when-elided="true" class="restuarant reslabel offlabel" />
+            </ui:Button>
+            <ui:Button display-tooltip-when-elided="true" class="button1 accountbutton">
+                <ui:VisualElement class="restuarantlabel accounts" />
+                <ui:Label text="Account" display-tooltip-when-elided="true" class="restuarant accountslabel" />
+            </ui:Button>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

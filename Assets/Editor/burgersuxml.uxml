@@ -1,0 +1,41 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Editor/recipeuss.uss?fileID=7433441132597879392&amp;guid=8e4751ded85f3b842be5cb2776035c2a&amp;type=3#recipeuss" />
+    <ui:VisualElement name="VisualElement" class="mainscreen" style="border-top-left-radius: 22px; border-bottom-left-radius: 22px; border-top-right-radius: 22px; border-bottom-right-radius: 22px;">
+        <ui:VisualElement class="coverphoto">
+            <ui:Button text=" " display-tooltip-when-elided="true" class="backbutton" />
+            <ui:Label text="Burgers" display-tooltip-when-elided="true" class="burgerlabel" />
+        </ui:VisualElement>
+        <ui:VisualElement class="bottomve">
+            <ui:VisualElement class="restopve">
+                <ui:Label text="128 restuarants" display-tooltip-when-elided="true" class="noofrestuarants" />
+                <ui:Button display-tooltip-when-elided="true" class="filtersbutton" />
+            </ui:VisualElement>
+            <ui:ScrollView class="restuarantsscroll res1ve burgerresscroll">
+                <ui:Button text="Button" display-tooltip-when-elided="true" class="resbutton1">
+                    <ui:VisualElement class="res1photo" />
+                    <ui:Label text="Burger Queen" display-tooltip-when-elided="true" class="res1label resbutton1label" />
+                    <ui:Label text="Cafe.WesternFood-$$" display-tooltip-when-elided="true" class="res1food resbutton1food" />
+                    <ui:Label text="4.9(124 ratings)" display-tooltip-when-elided="true" class="res1rating resbutton1rating" />
+                </ui:Button>
+                <ui:Button text="Button" display-tooltip-when-elided="true" class="resbutton2">
+                    <ui:VisualElement class="res2photo" />
+                    <ui:Label text="Really Cool Burger" display-tooltip-when-elided="true" class="res1label resbutton2label" />
+                    <ui:Label text="Cafe.WesternFood-$$" display-tooltip-when-elided="true" class="res1food resbutton2food" />
+                    <ui:Label text="4.9(124 ratings)" display-tooltip-when-elided="true" class="res1rating resbutton2rating" />
+                </ui:Button>
+                <ui:Button text="Button" display-tooltip-when-elided="true" class="resbutton3">
+                    <ui:VisualElement class="res3photo" />
+                    <ui:Label text="Awesome Burger" display-tooltip-when-elided="true" class="res1label resbutton3label" />
+                    <ui:Label text="Cafe.WesternFood-$$" display-tooltip-when-elided="true" class="res1food resbutton3food" />
+                    <ui:Label text="4.9(124 ratings)" display-tooltip-when-elided="true" class="res1rating resbutton3rating" />
+                </ui:Button>
+                <ui:Button text="Button" display-tooltip-when-elided="true" class="res4button">
+                    <ui:VisualElement class="res4photo" />
+                    <ui:Label text="Just Eat Burger" display-tooltip-when-elided="true" class="res1label resbutton4label" />
+                    <ui:Label text="Cafe.WesternFood-$$" display-tooltip-when-elided="true" class="res1food resbutton4food" />
+                    <ui:Label text="4.9(124 ratings)" display-tooltip-when-elided="true" class="res1rating resbutton4rating" />
+                </ui:Button>
+            </ui:ScrollView>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
